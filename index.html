@@ -16,60 +16,36 @@
     <title>Document</title>
 </head>
 
-<body style="font-family: 'Poppins', sans-serif;">
+<body style="font-family: 'Poppins', sans-serif; background-color: #f2fcf6;">
     <header>
         <nav style="background-color: #01411C; " class="navbar navbar-expand-lg navbar navbar-dark ">
-            <div class="container-fluid">
+            <div class="container">
                 <a class="navbar-brand  fw-bolder text-Light" href="#">Marriage Manager</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About US</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Blog
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled">Story</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-light" type="submit">Search</button>
-                    </form>
+                <div class=" collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav fw-bold">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">About us</a>
+                        <a class="nav-link" href="#">Contact us</a>
+                        <a class="nav-link">Subscribe</a>
+                    </div>
                 </div>
             </div>
         </nav>
         <!-- Slide Show -->
         <section>
-            <img class="container-fluid" id="slider" class="d-block w-100s" src="images/slide/img01.png" width="1366"
-                height="500" alt="">
-            <h3 id="headline" src="WE Create Couple"></h3>
+            <img class=" w-100" id="slider" class="d-block w-100s" src="images/slide/img01.png" alt="">
+
         </section>
     </header>
     <main class="container">
         <h1 style="color: #01411C; font-weight: 800;" class="text-center  my-5">Find Your soulmate</h1>
 
-        <div class="row my-5">
+        <div class="row my-5 blogs">
             <div class="col-lg-6"><img class="w-100 border-rounded rounded-3 p-auto" src="images/img/quran.png" alt="">
             </div>
             <div class="col-lg-6  pt-5 px-5">
@@ -84,8 +60,8 @@
                 </button>
             </div>
         </div>
-        <div class="row  my-5">
-            <div class="col-lg-6  pt-5 px-5">
+        <div class="row  my-5 blogs">
+            <div class="col-lg-6 order-2 order-lg-1  pt-5 px-5">
                 <h4 style="color: #01411C; font-weight: 600;">Why cities has hightest divorce rate?</h4>
                 <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, recusandae ad
                     perspiciatis, illum
@@ -96,15 +72,15 @@
                     read more...
                 </button>
             </div>
-            <div class="col-lg-6"><img class="w-100 border-rounded rounded-3 p-auto" src="images/img/divorce.png"
-                    alt="">
+            <div class="col-lg-6 order-1 order-lg-2"><img class="w-100 border-rounded rounded-3 p-auto"
+                    src="images/img/divorce.png" alt="">
             </div>
         </div>
-        <div class="row  my-5">
+        <div class="row  my-5 blogs">
             <div class="col-lg-6"><img class="w-100 border-rounded rounded-3 p-auto" src="images/img/heart.png" alt="">
             </div>
             <div class="col-lg-6  pt-5 px-5">
-                <h4 style="color: #01411C; font-weight: 600;">How green will save your marraige?</h4>
+                <h4 style="color: #01411C; font-weight: 600;">How green will save your marriage?</h4>
                 <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, recusandae ad
                     perspiciatis, illum
                     quam quibusdam iste deleniti aspernatur itaque consequatur voluptatem officiis maiores, aperiam
@@ -117,6 +93,9 @@
         </div>
 
     </main>
+    <footer style="background-color:  #01411C; font-weight: 600 mt-5; ">
+        <p class="text-light text-center p-5">© 2022 marriagemanager.com All rights reserved</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 
